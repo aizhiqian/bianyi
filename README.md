@@ -8,6 +8,7 @@ git clone https://github.com/halo-dev/halo.git
 cd halo
 git checkout v2.8.0  #使用git tag --column可以查看所有标签
 make -C console build  #构建 Console
+./gradlew downloadPluginPresets #下载预设插件
 ./gradlew clean build -x check  #构建 Fat Jar
 ```
 构建完成之后，在 halo 项目下产生的 `application/build/libs/application-2.8.0.jar` 即为构建完成的文件。
