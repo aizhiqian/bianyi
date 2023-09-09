@@ -1,14 +1,10 @@
 # halo
 
-> 先不用进行这两步
-1. 把文件`application/src/main/resources/application.yaml`中的工作目录（work-dir）改为`/home/runner/${REPL_SLUG}/.halo2`
-2. 修改`gradle.properties`中的`version`为当前 tag 的版本号，如：`version=2.8.0`
-
 ```
 git clone https://github.com/halo-dev/halo.git
 cd halo
-git checkout v2.8.0  #使用git tag --column可以查看所有标签
-进行上面的1、2两步
+git checkout v2.8.0  #可以使用git tag --column可以查看所有标签
+修改 gradle.properties 中的 version 为当前 tag 的版本号，如：version=2.8.0
 make -C console build  #构建 Console
 ./gradlew downloadPluginPresets #下载预设插件
 ./gradlew clean build -x check  #构建 Fat Jar
