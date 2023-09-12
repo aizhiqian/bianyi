@@ -1,4 +1,4 @@
-# halo
+# [halo](https://docs.halo.run/)
 
 ```
 git clone https://github.com/halo-dev/halo.git
@@ -11,7 +11,7 @@ make -C console build  #构建 Console
 ```
 构建完成之后，在 halo 项目下产生的 `application/build/libs/application-2.8.0.jar` 即为构建完成的文件。
 
-# memos
+# [memos](https://usememos.com/docs)
 
 ```
 git clone https://github.com/usememos/memos.git 
